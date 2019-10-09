@@ -24,7 +24,7 @@ Voici mon site web personnel basé sur le thème [Jekyll-Uno](https://github.com
 ### Installation et test
 
 1. Télécharger ou cloner le repository
-2. Aller dans le dossier : `cd site-web/`
+2. Aller dans le dossier : `cd site-web-2019/`
 3. Si bundler n'est pas installé : `gem install bundler`
 3. Installer Ruby gems : `bundle install`
 4. Démarrer le serveur Jekyll: `bundle exec jekyll serve --watch`
