@@ -211,7 +211,7 @@ pre.highlight code,
 .link-to-home{
   width: 54px;
   height: 54px;
-  z-index: 999;
+  z-index: 99999;
   top: 20px;
   left: 20px;
   position: fixed;
@@ -220,6 +220,14 @@ pre.highlight code,
 .link-to-home img{
   width: 54px;
   height: 54px;
+}
+
+.btn-mobile-menu{
+  text-align: right;
+}
+
+.btn-mobile-menu i{
+  right: 15px;
 }
 
 @media (max-width: 960px){
@@ -234,7 +242,16 @@ pre.highlight code,
   .panel-cover--collapsed .panel-cover__blog{
     display: block;
   }
-  
+  .link-to-home{
+    top: 5px;
+    height: 30px;
+    width: 30px;
+    left: 15px;
+  }
+  .link-to-home img{
+    height: 30px;
+    width: 30px;
+  }
 }
 
 @media (max-width: 375px){
