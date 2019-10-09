@@ -32,6 +32,7 @@ paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
+include: ['signature']
 
 sass:
     sass_dir: _sass
