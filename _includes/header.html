@@ -1,0 +1,101 @@
+<span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+
+<header class="panel-cover">
+
+  <a href="{{ site.baseurl }}/" title="Retour à l'accueil du site {{ site.title }}" class="link-to-home">
+    <img src="{{ site.baseurl }}/images/logo.svg" class="logo-site" alt="Benoit DUSSAUX, logo">
+  </a>
+  <div class="panel-main">
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <img src="{{ site.baseurl }}/images/profile.jpg" class="user-image" alt="Benoit DUSSAUX, photo de profil">
+
+          <h1 class="panel-cover__title panel-title">{{ site.intro }}</h1>
+           {% if site.blog %}
+          <h1 class="panel-cover__blog panel-title">Blog</h1>
+          {% endif %}
+        <p class="panel-cover__description">{{ site.text }}</p>
+
+        <div class="navigation-wrapper">
+          
+          {% if site.blog %}
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="Lien vers {{ site.title }} blog" class="blog-button">Blog</a></li>
+            </ul>
+          </nav>
+          {% endif %}
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+
+            {% if site.author.twitter_username %}
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} sur Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.facebook_username %}
+              <!-- Facebook -->
+              <li class="navigation__item">
+                <a href="https://www.facebook.com/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} sur Facebook" target="_blank">
+                  <i class="icon icon-social-facebook"></i>
+                  <span class="label">Facebook</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.linkedin_username %}
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} sur LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.github_username %}
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} sur GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.email %}
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            {% endif %}
+
+            <!-- RSS -->
+            <li class="navigation__item">
+              <a href="{{ site.baseurl }}/feed.xml" title="Souscrire" target="_blank">
+                <i class="icon icon-rss"></i>
+                <span class="label">RSS</span>
+              </a>
+            </li>
+
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>

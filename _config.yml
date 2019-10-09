@@ -1,0 +1,47 @@
+# Site settings
+title: 'Benoit Dussaux - Chef de projet digital technique à Paris'
+description: 'Je suis chef de projet digital technique à Paris. Je conçois des sites et applications web complexes pour tout type de clients'
+intro: 'Hello 👋'
+text: 'Je suis Benoit 👨‍💻 chef de projet digital technique à Paris'
+blog: false
+url: 'https://www.benoitdussaux.com'
+baseurl: ''
+google_analytics: 'UA-8480120-4'
+disqus_shortname: 'bdussaux'
+crisp_website_id: '6afa5098-b037-45a9-884f-4cc41ab2b031'
+
+author:
+  name: 'Benoit DUSSAUX'
+  email: hello@benoitdussaux.com
+  twitter_username: bdussaux
+  facebook_username: benoitdsx
+  github_username:  bdussaux
+  linkedin_username:  bdussaux
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

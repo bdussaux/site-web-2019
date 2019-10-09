@@ -1,0 +1,23 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* TEAM */
+Developer & Designer: Benoit DUSSAUX
+Twitter: @bdussaux
+Site: http://www.benoitdussaux.com
+Location: Paris, France
+						
+/* THANKS */
+Name : Josh Gerdes
+Twitter: @joshgerdes
+Site: http://joshgerdes.com
+Location: Minneapolis, MN, USA
+
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Standards: HTML5, CSS3, JS
+Components: Jekyll
+Software: Sublime Text, Photoshop
