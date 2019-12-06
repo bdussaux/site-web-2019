@@ -1,8 +1,8 @@
 # Site settings
-title: 'Benoit Dussaux - Chef de projet numérique et formateur à Paris'
-description: 'Je suis chef de projet numérique et formateur à Paris. Je conçois des sites et applications web complexes pour tout type de clients'
+title: 'Benoit Dussaux - Chef de projet numérique à Paris'
+description: 'Je suis chef de projet numérique à Paris. Je conçois des sites et applications web complexes pour tout type de clients'
 intro: 'Hello 👋'
-text: 'Je suis Benoit 👨‍💻 chef de projet numérique et formateur à Paris'
+text: 'Je suis Benoit 👨‍💻 chef de projet numérique à Paris'
 blog: false
 url: 'https://www.benoitdussaux.com'
 baseurl: ''
