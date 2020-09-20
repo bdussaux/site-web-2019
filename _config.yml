@@ -1,8 +1,8 @@
 # Site settings
-title: 'Benoit Dussaux - Chef de projet numérique à Paris'
-description: 'Je suis chef de projet numérique à Paris. Je conçois des sites et applications web complexes pour tout type de clients'
+title: 'Benoit Dussaux - Chef de projet digital à Paris'
+description: 'Je suis chef de projet digital à Paris. Je conçois des sites et applications web complexes pour tout type de clients'
 intro: 'Hello 👋'
-text: 'Je suis Benoit 👨‍💻 chef de projet numérique à Paris'
+text: 'Je suis Benoit 👨‍💻 chef de projet digital à Paris'
 blog: false
 url: 'https://www.benoitdussaux.com'
 baseurl: ''
@@ -14,7 +14,6 @@ author:
   name: 'Benoit DUSSAUX'
   email: hello@benoitdussaux.com
   twitter_username: bdussaux
-  facebook_username: benoitdsx
   github_username:  bdussaux
   linkedin_username:  bdussaux
 
